@@ -2,8 +2,12 @@
 
 <html>
 
-	<head>
+<!-- 	The head includes the header you see at the top of the page
+ -->	
+ 	<head>
+<!-- 		Referencing the external stylesheet -->
 		<link rel="stylesheet" href="styles.css">
+<!-- 		These are the fonts I used -->
 		<link href='https://fonts.googleapis.com/css?family=La Belle Aurore' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Gilda Display' rel='stylesheet'>
 	</head>
@@ -11,27 +15,20 @@
 	<body>	
 		<div id="header">
 			<div class ="container">
-				
+				<!-- menu includes the different options the user has at the top of the page. Each option leads the user to a different page -->
 				<ul id="menu">
 					<li id="currentTab"><a href="#">Latest Adventures</a>
-					<li><a href="#">Bubble Tea & Tea</a>
-					<li><a href="#">Food</a>
-						<li><a href="#">Books</a>
+					<li><a href="bbt-t.html">Bubble Tea & Tea</a>
+					<li><a href="food.html">Food</a>
+					<li><a href="books.html">Books</a>
 				</ul>
 
 				<div id="logo">Are you hungry? Me too!</div>
 			</div>
 		</div>
-<!-- 
-		<div class="container1">
-  		<img src="Images\Korean.jpg" width="300" alt="Avatar" class="image">
-  		<div class="overlay">
-    		<div class="text">Hello World</div>
-  		</div>
-	</div> -->
 
 		<div id="homeTable">
-
+			<!-- This table is a gallery of the latest adventures Edrienne went to. A table is used so that the photos and the text can align. -->
 			<table id="homeTablePhotos">
 				<tr>
 					<th><img src="Images\BubbleMania.JPG" width="300"></img></th>
@@ -39,7 +36,7 @@
 					<th><img src="Images\Minas.JPG" width="300"></img></th>
 					<th><img src="Images\Maxs1.JPG" width="300"></img></th>
 				</tr>
-
+				<!-- Photo captions -->
 				<tr id = "ImageTitle">
 					<td>That Feeling When</td>
 					<td>So Addicting</td>
@@ -51,7 +48,7 @@
 
 		</div>
 
-
+<!-- 		The footer is in the same location throughout -->
 		<div class="footer">
   		<div class ="container">
 				<ul id="footerMenu">

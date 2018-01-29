@@ -1,18 +1,17 @@
 body {
 	background-color: #fff;
-	font-family: Arial;
 	margin: 0;
 	padding: 0;
 }
 
 #header {
-	height: 80px;
+	height: 70px;
 	background-color: #fff;
 	border-bottom: 1px solid gray;
 }
 
 .container {
-	width: 95%;
+	width: 1300px;
 	margin: 0 auto;
 }
 
@@ -61,37 +60,6 @@ body {
 	padding-bottom: 10px;
 }
 
-.container1 {
-  position: relative;
-  width: 300px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #000;
-}
-
-.container1:hover .overlay {
-  opacity: 0.50;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 #homeTable th:hover{
 	opacity: 0.75;
 }
@@ -104,6 +72,45 @@ body {
 	padding-top: 0;
 	margin-top: 0;
 }
+/*
+The current tab will be underlined for the user to know*/ 
+#currentTab {
+	text-decoration: underline;
+}
+
+#blog {
+	padding-top: 80px;
+	display: inline-block;
+}
+
+#blogPost {
+	width: 80%;
+	float: right;
+	padding-right: 80px;
+	font-family: 'Gilda Display';
+}
+
+#blogPhoto {
+	padding-right: 20px;
+}
+
+#blogPost p {
+	font-size: 25px;
+	display: block;
+	float: right;
+	line-height: 40px;
+}
+
+#blogPost h1 {
+	font-size: 40px;
+	margin-bottom: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#blogPost b {
+	text-decoration: underline;
+}
 
 .footer {
     position: fixed;
@@ -115,10 +122,10 @@ body {
     border-top: 1px solid gray;
     left: 0;
 		bottom: 0;
+		background: #fff;
 }
 
 .footer li {
-
 	padding-top: 20px;
 }
 
@@ -155,8 +162,4 @@ body {
 	font-weight: bold;
 	font-family: 'La Belle Aurore';
 	float: left;
-}
-
-#currentTab {
-	text-decoration: underline;
 }
